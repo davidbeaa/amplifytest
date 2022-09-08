@@ -24,7 +24,7 @@ const awsconfig = {
   federationTarget: "COGNITO_USER_POOLS",
   Storage: {
     AWSS3: {
-      bucket: "reports-bkps", //REQUIRED -  Amazon S3 bucket name
+      bucket: "webbackup2", //REQUIRED -  Amazon S3 bucket name
       region: "us-east-1", //OPTIONAL -  Amazon service region
     },
   },
